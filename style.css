@@ -1,0 +1,64 @@
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* @font-face {
+  font-family: "Porpora";
+  src: url("../fonts/Porpora-Regular.woff2") format("woff2"),
+       url("../fonts/Porpora-Regular.woff") format("woff");
+} */
+
+
+.logo {
+  /* display: none; */
+  z-index: 20;
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  /* animation-duration: 3s;
+  animation-name: logoMove; */
+  width: 7%;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 20%;
+  /* font-family: Arial; */
+  font-size: 5vh;
+  line-height: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.Impressum {
+  position: fixed;
+  top: 50vw;
+  left: 1em;
+  z-index: 2;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  /* margin-top: 50vw; */
+  font-size: 2vh;
+}
+
+a {
+  color: rgba(222, 111, 133);
+}
+
+img{
+  width: 100%;
+  position: fixed;
+}
+
+/* .hintergrund {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  margin-top: 30px;
+} */
